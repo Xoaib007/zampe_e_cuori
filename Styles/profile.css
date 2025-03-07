@@ -1,4 +1,61 @@
 /* Pet Profile Section */
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #154c68;
+}
+
+/* Header Styles */
+header {
+    background-color: #154c68;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the divs to the top and bottom */
+    align-items: center; /* Centers horizontally */
+    height: 200px; /* Adjust as needed */
+    border: 1px solid #000; /* Just for visualization */
+}
+
+
+header .logo img {
+    
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
 .pet-profile {
     display: flex;
     justify-content: center;
@@ -50,7 +107,7 @@
     font-size: 1.2rem;
     padding: 0.8rem 1.5rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: block;
@@ -79,5 +136,26 @@
     .profile-info p {
       font-size: 1rem;
     }
+  }
+
+  /* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #154c68;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+footer a:hover {
+    color: #ff5722;
+}
+
+strong {
+    font-weight: bold;
   }
   
