@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -104,65 +106,119 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-/* Welcome Section - Fullscreen, Centered & Stylish */
-.welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Fullscreen height */
-    background: linear-gradient(rgba(21, 76, 104, 0.8), rgba(21, 76, 104, 0.8)), url('welcome-bg.jpg');
-    background-size: cover;
-    background-position: center;
+/* Adoption Process Section */
+.adoption-process {
     text-align: center;
-    color: #ffffff;
-    padding: 40px 20px;
+    padding: 140px 20px;
+    background-color: #f0f0f0;
 }
 
-/* Content Box */
-.welcome-content {
-    max-width: 700px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 40px;
+.adoption-process h2 {
+    font-size: 36px;
+    color: #154c68;
+    margin-bottom: 40px;
+}
+
+.welcome-image img {
+    width: 50%;
     border-radius: 12px;
-    backdrop-filter: blur(5px); /* Frosted glass effect */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Title */
-.welcome-content h2 {
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-.welcome-content h2 span {
-    color: #ffcc00; /* Highlight the website name */
-}
-
-/* Paragraph */
-.welcome-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Call-to-Action Button */
-.welcome-content .btn {
+.btn {
     display: inline-block;
     padding: 12px 24px;
+    margin: 50px 10px;
     font-size: 18px;
     background-color: #ffcc00;
     color: #154c68;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 35px;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.welcome-content .btn:hover {
+.btn:hover {
     background-color: #ff5722;
     color: #ffffff;
     transform: scale(1.05);
 }
+
+/* Process Container */
+.process-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; /* Space between each step */
+    position: relative;
+}
+
+/* Step Card */
+.step-card {
+    width: 250px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Step Icon */
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ffcc00;
+    color: #154c68;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Step Content */
+.step-content h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.step-content p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Roadmap Line (Horizontal) */
+.roadmap {
+    width: 40px;
+    height: 5px;
+    background: #154c68;
+    position: relative;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .process-container {
+        flex-direction: column;  /* Stack the cards vertically on smaller screens */
+        gap: 20px;
+    }
+
+    .step-card {
+        width: 80%;  /* Allow cards to be more flexible in size */
+    }
+
+    .roadmap {
+        width: 5px;
+        height: 40px;
+    }
+}
+
 
 
 /* Featured Animals Section */
@@ -184,6 +240,7 @@ nav ul li a:hover {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 
 /* Animal Card */
