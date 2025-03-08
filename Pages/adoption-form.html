@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adotta un Amico - Pet Adoption</title>
+  <link rel="stylesheet" href="../Styles/adoption_form.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="logo">
+        <img src="/Resources/logo-white.png" alt="Zampe e Cuori Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../Pages/Animali_in_Adozione.html">Animali in Adozione</a></li>
+            <li><a href="#">Informazioni Adozione</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <!-- Adoption Form Section -->
+  <section class="adoption-form">
+    <div class="form-container">
+      <h1>Adotta un Amico</h1>
+      <p>Compila il modulo per adottare uno dei nostri adorabili animali!</p>
+
+      <form>
+        
+        <label for="pet-name">Nome dell'Animale:</label>
+        <select id="pet-name" name="pet-name" required>
+          <option value="Beluga">Beluga</option>
+          <option value="Xiao Chin Dawg">Xiao Chin Dawg</option>
+          <option value="Cat-Astrophy">Cat-Astrophy</option>
+          <option value="Doge">Doge</option>
+          <option value="Mozzarella">Mozzarella</option>
+          <option value="Mango, Il Distruttore di Galassie">Mango, Il Distruttore di Galassie</option>
+          <option value="Snoopdog">Snoopdog</option>
+        </select>
+
+        <label for="full-name">Il tuo Nome Completo:</label>
+        <input type="text" id="full-name" name="full-name" placeholder="Mario Rossi" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="esempio@email.com" required>
+
+        <label for="phone">Numero di Telefono:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+39 123 456 7890" required>
+
+        <label for="address">Indirizzo Completo:</label>
+        <input type="text" id="address" name="address" placeholder="Via Roma 10, Milano" required>
+
+        <label for="message">Perché vuoi adottare questo animale?</label>
+        <textarea id="message" name="message" rows="4" placeholder="Scrivi il motivo qui..." required></textarea>
+
+      </form>
+
+      
+      <a href="/Pages/adoption-confirmation.html" class="adopt-btn-wrap">
+        <button class="adopt-btn">Invia Richiesta</button>
+    </a>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Zampe e Cuori - Tutti i diritti riservati</p>
+        <p><a href="#">Privacy</a> | <a href="#">Termini di Servizio</a></p>
+    </footer>
+
+</body>
+
+</html>
