@@ -60,9 +60,10 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     background-color: #f7f7f7;
-    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 100px;
   }
   
   .confirmation-container {
