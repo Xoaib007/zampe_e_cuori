@@ -8,7 +8,7 @@
 This is a simple html-css project for animal adoption house. Made for a school projects.
 
 **Navigation Tree**
-`
+```
 Home (index.html)  
 │  
 ├── Animali in Adozione (adoption.html)  
@@ -21,7 +21,7 @@ Home (index.html)
 ├── Informazioni Adozione  
 │  
 ┕── Contatti (contact.html)  
-`
+```
 
 Project started: 20 February 2025
 
