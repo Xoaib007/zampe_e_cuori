@@ -22,6 +22,8 @@ Home (index.html)
 │  
 ┕── Contatti (contact.html)  
 ```
+Font used: Monsterrat  
+Library used: None
 
 Project started: 20 February 2025
 
