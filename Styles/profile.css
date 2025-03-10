@@ -56,6 +56,26 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
+/* Back Button */
+.back-button {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background: #ffcc00;
+  color: #008f84;
+}
+
+
 .pet-profile {
     display: flex;
     justify-content: center;
