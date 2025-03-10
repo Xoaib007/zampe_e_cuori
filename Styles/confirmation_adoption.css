@@ -108,6 +108,14 @@ nav ul li a:hover {
   .back-btn:hover, .home-btn:hover {
     background-color: #0e3a52;
   }
+
+
+.video-container video {
+  width: 100%;
+  max-height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
   
  
  /* Footer Styles */
