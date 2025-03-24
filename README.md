@@ -18,9 +18,9 @@ Home (index.html)
 │   ├── Pet Profile 4 (pet-biscotto.html) ─ ─ ─│    └── Successo (adoption-confirmation.html)  
 │   └── (Other Pet Profiles...)           ─ ─ ─┘  
 │  
-├── Informazioni Adozione  
+├── Informazioni Adozione  (not done)
 │  
-┕── Contatti (contact.html)  
+┕── Contatti (not done)  
 ```
 Font used: Monsterrat  
 Library used: None
